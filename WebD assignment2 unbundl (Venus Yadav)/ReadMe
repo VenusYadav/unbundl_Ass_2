@@ -1,0 +1,35 @@
+Provide a brief explanation of your approach, including any tools or
+frameworks used, and the reasoning behind your choices
+
+Explaination-
+
+HTML Structure:
+The HTML file defines the structure of the page, consisting of two sections: one for displaying available chocolate options (chocolate-options) and another for the custom pack (custom-pack). Each chocolate option is represented by a checkbox and label.
+
+CSS Styling:
+The CSS file styles the components to create an intuitive and responsive user interface. It uses flexbox to arrange chocolate options in a grid-like format, and it includes styling for checkboxes, labels, and the overall layout.
+
+JavaScript Functionality:
+The JavaScript file is responsible for handling user interactions and updating the UI dynamically.
+An event listener is added to the checkbox changes in the chocolate-options section. When a chocolate is selected or deselected, the corresponding data is updated in the selectedChocolates array.
+Functions are defined to display the selected chocolates, calculate the total price, and update the item count. These functions are called whenever a change occurs.
+
+Reasoning Behind Choices:
+
+Plain JavaScript:
+Used plain JavaScript without any external libraries or frameworks to keep the implementation lightweight and simple. For a small-scale feature like this, using vanilla JavaScript is often sufficient and avoids unnecessary dependencies.
+
+HTML for Structure:
+Utilized HTML for structuring the content of the page, as it provides a semantic and clean foundation for the document.
+
+CSS for Styling:
+Employed CSS for styling to ensure a visually appealing and responsive design. Flexbox was chosen for its simplicity in creating a flexible layout for the chocolate options.
+
+Event Listeners:
+Event listeners are used to capture changes in the state of checkboxes. This approach allows for real-time updates to the selected chocolates, total price, and item count without requiring a page reload.
+
+Array Manipulation:
+Utilized arrays (chocolateOptions and selectedChocolates) to store and manage the data. Arrays are versatile data structures that simplify operations like filtering, mapping, and reducing.
+
+Responsive Design:
+The design is kept simple and responsive to provide a consistent user experience across different devices and screen sizes.
